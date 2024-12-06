@@ -12,8 +12,7 @@
 - mariaDB
 - AWS RDS
 
-### Requirements
-- _Write Requirements_
+
 
 ## 1. Competiton Info
 
@@ -65,9 +64,6 @@ e.g.
 
 ## 4. Modeling
 
-### Model descrition
-
-- _Write model information and why your select this model_
 
 ### Modeling Process
 
@@ -79,15 +75,12 @@ e.g.
      
 
 ## 5. Result
+![image](https://github.com/user-attachments/assets/d1327e43-f1f0-47f1-a3e7-2b41ddc83a1e)
 
 
 
 ### Presentation
 
-- _Insert your presentaion file(pdf) link_
 
-
-
-### Reference
 
 - _Insert related reference_
