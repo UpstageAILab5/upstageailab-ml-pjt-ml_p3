@@ -8,7 +8,9 @@
 
 ## 0. Overview
 ### Environment
-- _Write Development environment_
+- streamlit
+- mariaDB
+- AWS RDS
 
 ### Requirements
 - _Write Requirements_
@@ -17,13 +19,8 @@
 
 ### Overview
 
-- _Write competition information_
-
-### Timeline
-
-- ex) January 10, 2024 - Start Date
-- ex) February 10, 2024 - Final submission deadline
-
+- 영화추천 시스템
+  
 ## 2. Components
 
 ### Directory
@@ -50,15 +47,21 @@ e.g.
 
 ### Dataset overview
 
-- _Explain using data_
+- TMDB 데이터 기반, 영화 추천 시스템
+- MovieLens 데이터 기반, 협업 필터링 설계
 
 ### EDA
 
-- _Describe your EDA process and step-by-step conclusion_
+- ![image](https://github.com/user-attachments/assets/ee73e77c-206b-43ba-9385-35d33157d894)
+- ![image](https://github.com/user-attachments/assets/4f04d9ad-5a21-4713-b681-8da49cfea5b7)
+
 
 ### Data Processing
 
-- _Describe data processing process (e.g. Data Labeling, Data Cleaning..)_
+- 결측치 80% 이상 컬럼 삭제 (작곡가, 프로듀서 등)
+- 기타 결측치 보간 실시
+- 개봉 영화 기준
+- 영미/한국 기준 영화 
 
 ## 4. Modeling
 
@@ -68,24 +71,22 @@ e.g.
 
 ### Modeling Process
 
-- _Write model train and test process with capture_
+- 1) 영화 메타데이터 기준
+     - 수익> 투표수 순으로 흥행 기준 영화 추천
+  2) 협업 필터링 - 사용자 기반
+     - cosine 유사도 파악 :사용자별
+     - 유사한 사용자끼리 , 시청하지 않은 영화추천
+     
 
 ## 5. Result
 
-### Leader Board
 
-- _Insert Leader Board Capture_
-- _Write rank and score_
 
 ### Presentation
 
 - _Insert your presentaion file(pdf) link_
 
-## etc
 
-### Meeting Log
-
-- _Insert your meeting log link like Notion or Google Docs_
 
 ### Reference
 
